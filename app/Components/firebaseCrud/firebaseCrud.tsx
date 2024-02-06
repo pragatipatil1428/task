@@ -179,8 +179,6 @@ function FirebaseCrud() {
 
   </fieldset>
   
-
-  
   </form>
 
   );
