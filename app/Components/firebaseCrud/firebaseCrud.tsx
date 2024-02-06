@@ -6,6 +6,7 @@ import FirebaseConfig from "../firebaseConfig/firebaseConfig";
 const database = FirebaseConfig();
 
 function FirebaseCrud() {
+
   let [id, setId] = useState<string>('');
   let [name, setName] = useState<string>('');
   let [contact, setContact] = useState<string>('');
@@ -178,7 +179,6 @@ function FirebaseCrud() {
     </div>
 
   </fieldset>
-  
 
   </form>
 
